@@ -30,20 +30,11 @@ body{
   margin: auto;
 
 }
-.navdata nav{
-align-self: center;
-}
-.navdata div{
-  display: inline-flex;
-  align-items: center;
-}
-.navdata ul{
-  list-style: none;
-}
-.navdata ul li a{
-  color: black;
+.navdata div a{
   text-decoration: none;
+  color: #000000;
 }
+
 .auth-buttons .butt2 {
   padding: 8px 16px;
   border: none;
@@ -66,5 +57,9 @@ align-self: center;
   color: #fff;
   vertical-align: bottom;
 }
-
+@media (max-width: 600px) {
+  .navdata div h2{
+    font-size:20px ;
+  }
+}
 

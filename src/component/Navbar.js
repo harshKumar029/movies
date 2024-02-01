@@ -7,12 +7,12 @@ const Navbar = () => {
             <header className='navbar'>
                 <div className='navdata'>
                     <div>
-                    <h2>Movie App</h2>
-                        <ul>
+                    <Link to="/"><h2>Movie App</h2></Link>
+                        {/* <ul>
                             <li>
                                 <Link to="/">Home</Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className="auth-buttons">
                         <Link >
