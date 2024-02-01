@@ -1,38 +1,70 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.movieshome{
+  width: 80%;
+  margin: auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.moviecard {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px; 
+}
+.navbar{
+  height: 80px;
+ background-color: rgba(255, 255, 255, 0.818);
+ margin-bottom: 30px;
+ 
+}
+.navdata{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+
+}
+.navdata nav{
+align-self: center;
+}
+.navdata div{
+  display: inline-flex;
+  align-items: center;
+}
+.navdata ul{
+  list-style: none;
+}
+.navdata ul li a{
+  color: black;
+  text-decoration: none;
+}
+.auth-buttons .butt2 {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.auth-buttons .butt1 {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+}
+.auth-buttons a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: bottom;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
